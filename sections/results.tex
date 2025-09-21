@@ -4,15 +4,15 @@
 
 \noindent Replace this placeholder with project\,specific findings: key metrics and confidence intervals, brief references to figures/tables, and observations relevant to the research questions. Avoid over\,claiming; note caveats that affect interpretation and generalizability.
 
-\bigskip
+\subsection{Tables}
 
 \noindent Table~\ref{tab:results-csv} illustrates how to import a table from a CSV file (see \texttt{tables/results\_example.csv}). Update the CSV and recompile to refresh the table.
 
 \begin{table}[h]
   \centering
+  \csvautobooktabular{tables/results_example.csv}
   \caption{Dummy performance metrics imported from CSV.}
   \label{tab:results-csv}
-  \csvautobooktabular{tables/results_example.csv}
 \end{table}
 
 \noindent Large tables can overflow the page. Table~\ref{tab:too-wide-example} shows an example of a table that is too wide. Table~\ref{tab:wide-example} shows how to wrap a wide table with :
@@ -26,8 +26,6 @@
 
 \begin{table}[htbp]
     \centering
-    \caption{Example of a wide table resized to fit the page width.}
-    \label{tab:too-wide-example}
     \begin{tabular}{lccccccccccccccc}
         \toprule
         ID & F1 & F2 & F3 & F4 & F5 & F6 & F7 & F8 & F9 & F10 & F11 & F12 & F13 & F14 & F15 \\
@@ -38,13 +36,13 @@
         A04 & 0.20 & 0.33 & 0.59 & 0.76 & 0.90 & 0.43 & 0.65 & 0.87 & 0.21 & 0.31 & 0.42 & 0.49 & 0.64 & 0.69 & 0.78 \\
         \bottomrule
     \end{tabular}
+    \caption{Example of a wide table resized to fit the page width.}
+    \label{tab:too-wide-example}
 \end{table}
 
 
 \begin{table}[htbp]
   \centering
-  \caption{Example of a wide table resized to fit the page width.}
-  \label{tab:wide-example}
   \resizebox{\textwidth}{!}{%
     \begin{tabular}{lccccccccccccccc}
       \toprule
@@ -57,4 +55,6 @@
       \bottomrule
     \end{tabular}%
   }
+  \caption{Example of a wide table resized to fit the page width.}
+  \label{tab:wide-example}
 \end{table}
