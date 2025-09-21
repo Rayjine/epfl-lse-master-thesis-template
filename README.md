@@ -6,6 +6,12 @@ This repository provides a **LaTeX template** specifically designed for **Master
 
 ---
 
+## Preview
+
+You can view the compiled sample PDF of this template here:
+
+[View `main.pdf`](./main.pdf)
+
 ## How to build the PDF
 You have two simple options to compile `main.tex` into `main.pdf`.
 
