@@ -15,6 +15,12 @@ You have two simple options to compile `main.tex` into `main.pdf`.
 3. Upload the ZIP of this repository.
 4. Overleaf will compile automatically. If not, click “Recompile”.
 
+### Did you know? GitHub + Overleaf
+
+> Did you know? You can save your code in a GitHub repository like this one and import your repo directly into Overleaf. 
+> After that, in Overleaf, you can also push your changes or pull new changes from GitHub manually. 
+> So if you'd like, you can just fork this repo to get started.
+> P.S. This requires Overleaf Pro, available for free for EPFL students by creating your account with your EPFL email.
 
 ### Option 2 — Local build (VS Code or any IDE)
 
