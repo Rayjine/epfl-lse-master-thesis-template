@@ -126,7 +126,7 @@ epfl-lse-master-thesis-template/
 ```
 
 ## Bibliography
-This template uses `biblatex` with `backend=biber` and `style=nature` by default. To cite, add entries in `bibliography.bib` and reference them with `\cite{key}`.
+This template uses `biblatex` with `backend=biber` and `style=nature` by default. To cite, add entries in `bibliography.bib` and reference them with `\parencite{key}`.
 
 ## Cleaning build artifacts
 You can clean intermediates with:
