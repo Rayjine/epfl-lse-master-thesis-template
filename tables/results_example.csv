@@ -1,0 +1,6 @@
+Metric,A,B
+Accuracy,0.81,0.78
+Precision,0.79,0.75
+Recall,0.80,0.76
+F1-score,0.795,0.755
+AUC,0.84,0.82

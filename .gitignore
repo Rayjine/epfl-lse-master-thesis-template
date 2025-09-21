@@ -1,0 +1,67 @@
+# LaTeX intermediate and auxiliary files
+*.aux
+*.auxlock
+*.bbl
+*.bcf
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.synctex(busy)
+*.toc
+*.xmpdata
+*.xdv
+
+# latexmk and other tool caches
+*.fdb_latexmk
+*.fls
+*.pdfsync
+*.dvi
+*.ps
+
+# Glossaries, nomenclature, acronyms
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.ist
+*.nlo
+*.nls
+
+# minted / listings
+_minted-*/
+*.lol
+
+# TikZ externalization cache (safe to ignore if used)
+*.dpth
+*.md5
+
+# Build/output directories (if you create them)
+build/
+output/
+dist/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# PDFs are NOT ignored by default. If you want to ignore all PDFs, uncomment:
+# *.pdf
+# Or ignore all PDFs except the final main.pdf:
+# *.pdf
+# !main.pdf
