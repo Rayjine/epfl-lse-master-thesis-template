@@ -12,7 +12,16 @@ You can view the compiled sample PDF of this template here:
 
 [View `main.pdf`](./main.pdf)
 
-## How to build the PDF
+## Contributing
+
+Contributions are welcome — bug fixes, documentation improvements, and new features.
+
+## Like this project? ⭐
+
+If this template helped you or you liked it, please consider **starring the repository**. It helps others discover it and motivates further improvements.
+
+## How to Use
+
 You have two simple options to compile `main.tex` into `main.pdf`.
 
 ### Option 1 — Overleaf (no install)
@@ -140,7 +149,3 @@ This repository includes a `.gitignore` to avoid committing LaTeX intermediates.
 * **Empty bibliography**: Ensure you have at least one `\cite{...}` that exists in `bibliography.bib`, then rerun the build (or `latexmk`).
 * **Figure not found**: Check the relative path (e.g., `figures/cell.png`) and that the file exists.
 * **Float placement warnings**: These are usually harmless. Use `[htbp]` placement specifiers to give LaTeX more flexibility.
-
----
-
-If you have suggestions or find issues, feel free to open an issue or PR.
