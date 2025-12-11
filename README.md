@@ -1,4 +1,4 @@
-# EPFL LSE Master Thesis Template
+# EPFL SV Master Thesis Template
 This repository provides a **LaTeX template** specifically designed for **Master’s students in Life Sciences Engineering (LSE)** at EPFL.
 
 
@@ -16,10 +16,6 @@ You can view the compiled sample PDF of this template here:
 
 Contributions are welcome — bug fixes, documentation improvements, and new features.
 
-## Like this project? ⭐
-
-If this template helped you or you liked it, please consider **starring the repository**. It helps others discover it and motivates further improvements.
-
 ## How to Use
 
 You have two simple options to compile `main.tex` into `main.pdf`.
@@ -29,6 +25,7 @@ You have two simple options to compile `main.tex` into `main.pdf`.
 2. Go to [Overleaf](https://www.overleaf.com), create a new project, and “Upload Project”.
 3. Upload the ZIP of this repository.
 4. Overleaf will compile automatically. If not, click “Recompile”.
+5. Put a ⭐ if you like it to help others discover it and motivate further improvements 🙂.
 
 ### Did you know? GitHub + Overleaf
 
@@ -149,3 +146,8 @@ This repository includes a `.gitignore` to avoid committing LaTeX intermediates.
 * **Empty bibliography**: Ensure you have at least one `\cite{...}` that exists in `bibliography.bib`, then rerun the build (or `latexmk`).
 * **Figure not found**: Check the relative path (e.g., `figures/cell.png`) and that the file exists.
 * **Float placement warnings**: These are usually harmless. Use `[htbp]` placement specifiers to give LaTeX more flexibility.
+
+## Like this project? ⭐
+
+If this template helped you or you liked it, please consider **starring the repository**. It helps others discover it and motivates further improvements.
+
